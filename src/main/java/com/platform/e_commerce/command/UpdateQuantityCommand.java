@@ -1,18 +1,19 @@
 package com.platform.e_commerce.command;
 
+import com.platform.e_commerce.decorator.Product;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 public class UpdateQuantityCommand implements CheckoutCommand{
-    private int productId;
+    private String productName;
     private int newQuantity;
 
-    public UpdateQuantityCommand(int productId, int newQuantity) {
-        this.productId = productId;
+    public UpdateQuantityCommand(String productName, int newQuantity) {
+        this.productName = productName;
         this.newQuantity = newQuantity;
     }
     @Override
     public void execute() {
-        log.info("Quantity of product:" +productId + "increase to " +newQuantity);
+        log.info("Quantity of product:" + productName + "increase to " +newQuantity);
     }
 }

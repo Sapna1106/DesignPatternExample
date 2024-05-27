@@ -4,7 +4,7 @@ public abstract class ProductDecorator extends Product{
     protected Product product;
 
     public ProductDecorator(Product product) {
-        super(product.getName(), product.getPrice());
+        super(product.getName(), product.getPrice(), product.getQuantity());
         this.product = product;
     }
 

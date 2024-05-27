@@ -4,13 +4,13 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 public class RemoveCartItem implements CheckoutCommand{
-    private int productId;
+    private String productName;
 
-    public RemoveCartItem(int productId) {
-        this.productId = productId;
+    public RemoveCartItem(String productName) {
+        this.productName = productName;
     }
     @Override
     public void execute() {
-        log.info( productId+ " item removed from cart");
+        log.info( productName+ " item removed from cart");
     }
 }
