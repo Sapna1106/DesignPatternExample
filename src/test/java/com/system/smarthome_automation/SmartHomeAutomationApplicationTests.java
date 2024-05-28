@@ -1,4 +1,4 @@
-package com.system.SmartHomeAutomation;
+package com.system.smarthome_automation;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
