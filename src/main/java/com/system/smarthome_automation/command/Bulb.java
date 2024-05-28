@@ -1,4 +1,4 @@
-package com.system.SmartHomeAutomation.command;
+package com.system.smarthome_automation.command;
 
 import lombok.extern.slf4j.Slf4j;
 

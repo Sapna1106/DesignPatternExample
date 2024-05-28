@@ -1,4 +1,4 @@
-package com.system.SmartHomeAutomation.strategy;
+package com.system.smarthome_automation.strategy;
 
 public class TempControl {
     private ITemperatureControl temperatureControl;

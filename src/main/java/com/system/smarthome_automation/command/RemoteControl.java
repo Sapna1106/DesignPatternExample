@@ -1,4 +1,4 @@
-package com.system.SmartHomeAutomation.command;
+package com.system.smarthome_automation.command;
 
 public class RemoteControl {
     private DeviceCommand deviceCommand;
@@ -7,7 +7,7 @@ public class RemoteControl {
         this.deviceCommand = deviceCommand;
     }
 
-    public void pressButton() {
-        deviceCommand.execute();
+    public String pressButton() {
+        return deviceCommand.execute();
     }
 }

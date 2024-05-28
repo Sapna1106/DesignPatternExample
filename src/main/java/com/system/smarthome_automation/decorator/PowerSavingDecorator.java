@@ -1,6 +1,6 @@
-package com.system.SmartHomeAutomation.decorator;
+package com.system.smarthome_automation.decorator;
 
-import com.system.SmartHomeAutomation.command.DeviceCommand;
+import com.system.smarthome_automation.command.DeviceCommand;
 
 public class PowerSavingDecorator extends SmartDevice{
     public PowerSavingDecorator(DeviceCommand deviceCommand) {
