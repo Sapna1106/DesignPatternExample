@@ -23,7 +23,7 @@ public class ImageProcessingMonitor implements ImageOperation{
         }
     }
 
-    public void operationStatusChanged(String operationName, String status) {
-        notifyObservers(operationName + ": " + status);
+    public void operationStatusChanged(String status) {
+        notifyObservers(status);
     }
 }
